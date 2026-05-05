@@ -19,9 +19,6 @@ Group Members: Athirah, Heidi and Izzah
 4. Iterative Model Development (Assessment 2)
 
    We conducted experiments to compare a baseline approach against an improved architecture
-
-   # 🧠 IMAGINE Decoding Challenge — Improved Submission
-
 | Version |       Model       |        Technique          | Val Accuracy |       Notes           |
 |---------|-------------------|---------------------------|--------------|-----------------------|
 |    v1   |    Simple CNN     |        Baseline           |    ~10%      |    No preprocessing   |
