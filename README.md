@@ -26,11 +26,12 @@ Group Members: Athirah, Heidi and Izzah
 |    v2   | EEGNet + Ensemble | BN, Dropout, LR Scheduler |    ~TBD      | Improved architecture |
 
 
+
 4. Key Insights
 
-a) Class Distribution: Our Exploratory Data Analysis (EDA) confirmed a balanced distribution across all 10 labels.  
+   a) Class Distribution: Our Exploratory Data Analysis (EDA) confirmed a balanced distribution across all 10 labels.  
 
-b) Model Bias: The confusion matrix for the improved model indicates a bias toward Class 9, suggesting that the model is struggling to differentiate specific high-frequency features in the MEG signals.  
+   b) Model Bias: The confusion matrix for the improved model indicates a bias toward Class 9, suggesting that the model is struggling to differentiate specific    high-frequency features in the MEG signals.  
 
-c) Signal Variance: Most of the variance is concentrated in the early channel indices, requiring precise feature scaling.
+   c) Signal Variance: Most of the variance is concentrated in the early channel indices, requiring precise feature scaling.
 
