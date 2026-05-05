@@ -1,6 +1,16 @@
-Deep Learning 25/26 Visionary Crusaders
+Imagine Decoding Challenge
 
-GROUP MEMBERS:
-1. ATHIRAH HAZIQAH BINTI BADERULHISHAM 2210240
-2. IZZAH ZAHIRA BINTI NORAZLEE         2217696
-3. SITI HEIDI AMIRA BINTI AZRUL        2213080
+Track 1: Kaggle Competition
+Group Members: Athirah, Heidi and Izzah
+
+1. Project Overview
+  This project focuses on the Imagine Decoding Challenge, where the objective is to predict 10 object categories from MEG brain activity (306 channels × 121     timepoints). This task involves processing high-dimensional time-series data with a low signal-to-noise ratio.
+
+2. Methodology & Preprocessing
+   To improve model performance, we implemented the following pipeline:
+   I) Standardization: Applied StandardScaler across MEG channels to normalize the signals.  
+   II) Data Augmentation: Combined data from multiple subjects to increase the training sample size.  
+   III) Stratified Splitting: Used stratified shuffling to maintain class balance during validation.
+
+3. Iterative Model Development (Assessment 2)
+   We conducted experiments to compare a baseline approach against an improved architecture
