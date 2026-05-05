@@ -8,9 +8,10 @@ Group Members: Athirah, Heidi and Izzah
 
 2. Methodology & Preprocessing
    To improve model performance, we implemented the following pipeline:
+
    I) Standardization: Applied StandardScaler across MEG channels to normalize the signals.  
    II) Data Augmentation: Combined data from multiple subjects to increase the training sample size.  
    III) Stratified Splitting: Used stratified shuffling to maintain class balance during validation.
 
-3. Iterative Model Development (Assessment 2)
+4. Iterative Model Development (Assessment 2)
    We conducted experiments to compare a baseline approach against an improved architecture
